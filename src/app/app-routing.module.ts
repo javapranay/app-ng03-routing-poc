@@ -5,6 +5,7 @@ import { HrhelpdeskComponent } from './hrhelpdesk/hrhelpdesk.component';
 import { PayrollComponent } from './payroll/payroll.component';
 import { ProfileComponent } from './profile/profile.component';
 import { LearningComponent } from './learning/learning.component';
+import { TechComponent } from './tech/tech.component';
 
 const routes: Routes = [
   {path:"", redirectTo:"home", pathMatch:"full"},
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path:"hrhelpdesk", component:HrhelpdeskComponent},
   {path:"learning", component:LearningComponent},
   {path:"payroll", component:PayrollComponent},
-  {path:"profile", component:ProfileComponent}
+  {path:"profile", component:ProfileComponent},
+  {path:"tech/:language", component:TechComponent}
 ];
 
 @NgModule({

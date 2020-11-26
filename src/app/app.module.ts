@@ -8,6 +8,7 @@ import { HrhelpdeskComponent } from './hrhelpdesk/hrhelpdesk.component';
 import { LearningComponent } from './learning/learning.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
+import { TechComponent } from './tech/tech.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component';
     HrhelpdeskComponent,
     LearningComponent,
     ProfileComponent,
-    HomeComponent
+    HomeComponent,
+    TechComponent
   ],
   imports: [
     BrowserModule,
